@@ -1,16 +1,19 @@
-//29. Massivning har bir elementini teskari tartibda chiqaradigan funksiya yarating.
+// talaba: Jasurbek Shamsitdinov
+// variant: 29
+// masala: 29. Massivning har bir elementini teskari tartibda chiqaradigan funksiya yarating.
+// sana: 16.10.2024
+
 #include <iostream>
 
 void PrintArrayElements(int *arr, int lenArr) {
-	lenArr--;
 
-	if (lenArr < 0) {
+	if (lenArr < 1) {
 		return;
 	}
 	
-	std::cout << arr[lenArr];
+	std::cout << arr[lenArr-1];
 
-	return PrintArrayElements(arr, lenArr);
+	return PrintArrayElements(arr, lenArr-1);
 }
 
 int main() {

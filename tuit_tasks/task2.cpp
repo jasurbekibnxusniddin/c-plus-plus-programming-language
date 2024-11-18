@@ -1,5 +1,6 @@
 // avtor: Jasurbek Shamsitdinov
-// maqsad: matrix orqali ismni chop etish
+// variant: 29
+// masala: Xar bir talaba ikki o’lchovli massivda o’z ismlarini chiqarish dasturini tuzing
 // sana: 16.10.2024
 
 #include <iostream>

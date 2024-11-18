@@ -1,4 +1,7 @@
-// 29. Massivni ikkiga bo'lib, ikkala qismdagi elementlar yig'indisini solishtiring.
+// talaba: Jasurbek Shamsitdinov
+// variant: 29
+// masala: Massivni ikkiga bo'lib, ikkala qismdagi elementlar yig'indisini solishtiring.
+// sana: 16.10.2024
 
 #include <iostream>
 using namespace std;
