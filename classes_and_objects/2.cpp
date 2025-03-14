@@ -3,20 +3,15 @@
 
 using namespace std;
 
-class Employee { 
-
-    char name[80]; // private by default
-
-    public:
-        void putname(char *n);
-        void getname(char *n);
-    
+class Employee {
     private:
         double wage;
-
+        char name[80];
     public:
         void putwage(double w);
+        void putname(char *n);
         double getwage();
+        void getname(char *n);
 };
 
 void Employee::putname(char *n){
@@ -33,20 +28,4 @@ void Employee::putwage(double w){
 
 double Employee::getwage(){
     return wage;
-}
-
-int main() {
-
-    Employee ted;
-
-    ted.putname("Ted jones");
-    ted.putwage(75000);
-
-    char name[80];
-    ted.getname(name);
-
-    cout << name << " makes $";
-    cout << ted.getwage() << " per year.";
-
-    return 0; 
 }
